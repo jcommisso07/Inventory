@@ -13,6 +13,8 @@
 		7C4154351F294EA4002E993B /* Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C4154331F294EA4002E993B /* Inventory.xcdatamodeld */; };
 		7C4154371F294EA4002E993B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4154361F294EA4002E993B /* Assets.xcassets */; };
 		7C41543A1F294EA4002E993B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4154381F294EA4002E993B /* LaunchScreen.storyboard */; };
+		7CDBB66A1F2AA5100065D61E /* DJI_0536.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBB6691F2AA5100065D61E /* DJI_0536.JPG */; };
+		7CDBB66C1F2AA61E0065D61E /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBB66B1F2AA61E0065D61E /* InventoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7C4154361F294EA4002E993B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4154391F294EA4002E993B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C41543B1F294EA4002E993B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDBB6691F2AA5100065D61E /* DJI_0536.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DJI_0536.JPG; sourceTree = "<group>"; };
+		7CDBB66B1F2AA61E0065D61E /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				7C41542C1F294EA4002E993B /* AppDelegate.swift */,
 				7C41542E1F294EA4002E993B /* ViewController.swift */,
 				7C4154301F294EA4002E993B /* Main.storyboard */,
+				7CDBB66B1F2AA61E0065D61E /* InventoryViewController.swift */,
+				7CDBB6691F2AA5100065D61E /* DJI_0536.JPG */,
 				7C4154361F294EA4002E993B /* Assets.xcassets */,
 				7C4154381F294EA4002E993B /* LaunchScreen.storyboard */,
 				7C41543B1F294EA4002E993B /* Info.plist */,
@@ -129,6 +135,7 @@
 				7C41543A1F294EA4002E993B /* LaunchScreen.storyboard in Resources */,
 				7C4154371F294EA4002E993B /* Assets.xcassets in Resources */,
 				7C4154321F294EA4002E993B /* Main.storyboard in Resources */,
+				7CDBB66A1F2AA5100065D61E /* DJI_0536.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4154351F294EA4002E993B /* Inventory.xcdatamodeld in Sources */,
+				7CDBB66C1F2AA61E0065D61E /* InventoryViewController.swift in Sources */,
 				7C41542F1F294EA4002E993B /* ViewController.swift in Sources */,
 				7C41542D1F294EA4002E993B /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +313,7 @@
 				7C4154401F294EA4002E993B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
